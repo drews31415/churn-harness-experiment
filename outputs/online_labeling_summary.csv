@@ -1,0 +1,7 @@
+﻿metric,value
+snapshot_date,2011-12-10
+churn_90d_rate,0.33402489626556015
+bgnbd_churn_rate,0.0
+cohens_kappa,0.0
+confusion_matrix_90d_vs_bgnbd,"[[2889, 0], [1449, 0]]"
+bgnbd_note,BG/NBD fit succeeded with penalizer_coef=0.1.

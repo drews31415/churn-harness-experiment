@@ -1,0 +1,73 @@
+[
+  {
+    "customer_id": "C001",
+    "action": "send_campaign",
+    "audit_log": [
+      "input_score=0.910, clv_proxy=420.00",
+      "expected_profit=93.46",
+      "campaign_gate=send because score is high and profit gate passed"
+    ]
+  },
+  {
+    "customer_id": "C002",
+    "action": "human_review",
+    "audit_log": [
+      "input_score=0.510, clv_proxy=300.00",
+      "confidence_gate=human_review because score in [0.45, 0.55]"
+    ]
+  },
+  {
+    "customer_id": "C003",
+    "action": "block_low_profit",
+    "audit_log": [
+      "input_score=0.880, clv_proxy=24.00",
+      "expected_profit=3.08",
+      "profit_gate=blocked because expected profit does not exceed incentive cost"
+    ]
+  },
+  {
+    "customer_id": "C004",
+    "action": "block_rate_limited",
+    "audit_log": [
+      "input_score=0.770, clv_proxy=280.00",
+      "rate_limit=blocked because last campaign was 8 days ago"
+    ]
+  },
+  {
+    "customer_id": "C005",
+    "action": "no_action",
+    "audit_log": [
+      "input_score=0.320, clv_proxy=900.00",
+      "expected_profit=67.70",
+      "campaign_gate=no_action because churn risk is below action threshold"
+    ]
+  },
+  {
+    "customer_id": "C006",
+    "action": "send_campaign",
+    "audit_log": [
+      "input_score=0.660, clv_proxy=160.00",
+      "rate_limit=passed because last campaign was 45 days ago",
+      "expected_profit=23.38",
+      "campaign_gate=send because score is high and profit gate passed"
+    ]
+  },
+  {
+    "customer_id": "C007",
+    "action": "human_review",
+    "audit_log": [
+      "input_score=0.470, clv_proxy=80.00",
+      "confidence_gate=human_review because score in [0.45, 0.55]"
+    ]
+  },
+  {
+    "customer_id": "C008",
+    "action": "send_campaign",
+    "audit_log": [
+      "input_score=0.950, clv_proxy=75.00",
+      "rate_limit=passed because last campaign was 31 days ago",
+      "expected_profit=15.87",
+      "campaign_gate=send because score is high and profit gate passed"
+    ]
+  }
+]

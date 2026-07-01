@@ -1,0 +1,4 @@
+﻿experiment,best_model,imbalance,auc_roc,pr_auc,top_decile_lift,auc_drop_vs_original
+original_leaky_recency,RandomForest,class_weight,1.0,1.0,2.9931034482758623,0.0
+no_recency_90d_label,XGBoost,class_weight,0.8035437298651713,0.5754537053339144,1.8233848592944908,0.1964562701348287
+bgnbd_recalibrated_label,XGBoost,class_weight,0.8641646052360338,0.8481139310098889,3.444444444444444,0.13583539476396622

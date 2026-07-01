@@ -1,0 +1,9 @@
+﻿metric,value
+churn_90d_rate,0.33402489626556015
+p_alive_threshold_percentile,0.33402489626556015
+p_alive_recalibrated_threshold,1.0
+rank_selected_churn_customers,1449
+bgnbd_recalibrated_churn_rate,0.33402489626556015
+cohens_kappa_90d_vs_recalibrated_bgnbd,0.04766634632542799
+confusion_matrix_90d_vs_recalibrated_bgnbd,"[[1970, 919], [919, 530]]"
+previous_fixed_threshold_0_5_churn_rate,0.0

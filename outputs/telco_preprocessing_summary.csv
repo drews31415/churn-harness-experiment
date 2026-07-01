@@ -1,0 +1,4 @@
+﻿metric,value,note
+raw_rows,7043.0,
+totalcharges_missing_after_numeric,11.0,blank TotalCharges converted to NA
+churn_rate,0.2653698707936959,

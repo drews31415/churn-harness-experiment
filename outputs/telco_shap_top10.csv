@@ -1,0 +1,11 @@
+﻿feature,mean_abs_shap
+cat__Contract_Month-to-month,0.6285996031608715
+num__tenure,0.5062128299603055
+cat__OnlineSecurity_No,0.23414802043176292
+num__MonthlyCharges,0.2192983465511475
+cat__Contract_Two year,0.2010341372425577
+cat__InternetService_Fiber optic,0.19669521623071287
+cat__PaymentMethod_Electronic check,0.1639621372648795
+cat__TechSupport_No,0.1620694070793036
+num__TotalCharges,0.1388919823835195
+cat__MultipleLines_No,0.12970734385698093

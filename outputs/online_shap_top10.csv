@@ -1,0 +1,11 @@
+﻿feature,mean_abs_shap
+num__Recency,0.3413617257331181
+num__TenureDays,0.05240275921401519
+num__Monetary,0.02715862200598399
+num__Frequency,0.0268652856335935
+num__AvgOrderValue,0.013195633792303284
+cat__Country_United Kingdom,0.0024333854952775665
+cat__Country_Germany,0.00024288135950394925
+cat__Country_Japan,0.0002253853558358897
+cat__Country_France,0.00021443777228560091
+cat__Country_Channel Islands,0.00017331474538231461

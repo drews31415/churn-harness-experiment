@@ -1,0 +1,21 @@
+﻿feature,mean_abs_shap,dataset
+num__Recency,0.3413617257331181,Online Retail
+num__TenureDays,0.05240275921401519,Online Retail
+num__Monetary,0.02715862200598399,Online Retail
+num__Frequency,0.0268652856335935,Online Retail
+num__AvgOrderValue,0.013195633792303284,Online Retail
+cat__Country_United Kingdom,0.0024333854952775665,Online Retail
+cat__Country_Germany,0.00024288135950394925,Online Retail
+cat__Country_Japan,0.0002253853558358897,Online Retail
+cat__Country_France,0.00021443777228560091,Online Retail
+cat__Country_Channel Islands,0.00017331474538231461,Online Retail
+cat__Contract_Month-to-month,0.6285996031608715,Telco
+num__tenure,0.5062128299603055,Telco
+cat__OnlineSecurity_No,0.23414802043176292,Telco
+num__MonthlyCharges,0.2192983465511475,Telco
+cat__Contract_Two year,0.2010341372425577,Telco
+cat__InternetService_Fiber optic,0.19669521623071287,Telco
+cat__PaymentMethod_Electronic check,0.1639621372648795,Telco
+cat__TechSupport_No,0.1620694070793036,Telco
+num__TotalCharges,0.1388919823835195,Telco
+cat__MultipleLines_No,0.12970734385698093,Telco

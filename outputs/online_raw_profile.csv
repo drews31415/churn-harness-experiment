@@ -1,0 +1,9 @@
+﻿metric,value
+rows,541909
+columns,8
+date_min,2010-12-01 08:26:00
+date_max,2011-12-09 12:50:00
+customer_id_missing_ratio,0.249266943342886
+cancel_invoice_ratio,0.017139409015166755
+quantity_nonpositive_ratio,0.019604767590130447
+unitprice_nonpositive_ratio,0.0046446912673530055

@@ -1,0 +1,7 @@
+﻿reason,rows_matching_reason,ratio_of_raw_rows
+raw_rows,541909,1.0
+clean_rows,397884,0.7342265952401602
+starts_with_C_cancel_invoice,9288,0.017139409015166755
+missing_customer_id,135080,0.249266943342886
+quantity_le_0,10624,0.019604767590130447
+unitprice_le_0,2517,0.0046446912673530055

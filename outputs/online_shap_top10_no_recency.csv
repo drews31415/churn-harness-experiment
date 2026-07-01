@@ -1,0 +1,11 @@
+﻿feature,mean_abs_shap
+num__TenureDays,1.8515544601759368
+num__Monetary,0.2800794422042144
+num__Frequency,0.21491565192893136
+num__AvgOrderValue,0.16409409260080535
+cat__Country_United Kingdom,0.010494755297345096
+cat__Country_Germany,0.003203172936621138
+cat__Country_Japan,0.0013613404192775488
+cat__Country_Australia,0.0008100598268955976
+cat__Country_Switzerland,0.0007439408104866726
+cat__Country_Finland,0.0007338862343132496

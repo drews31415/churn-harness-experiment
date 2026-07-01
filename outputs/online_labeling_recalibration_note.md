@@ -1,0 +1,5 @@
+# BG/NBD Label Recalibration Note
+
+The fixed `P(alive) < 0.5` rule was not usable for this Online Retail run because it classified 0.00% of customers as churn. The 90-day inactivity label has a churn rate of 33.40%, so the recalibrated rule uses the lower 33.40% of the BG/NBD `P(alive)` distribution as churn. Because `P(alive)` is extremely concentrated near 1.0, the final assignment is rank-based rather than a plain `<= quantile` comparison; this avoids classifying all tied-at-threshold customers as churn. The selected cutoff value is `P(alive) <= 1.000000` for the rank-selected group.
+
+With this distribution-based cutoff, the BG/NBD-derived churn rate is 33.40%. Agreement with the 90-day inactivity label remains limited: Cohen's kappa is 0.048, with confusion matrix [[1970, 919], [919, 530]]. This means the two labels identify different customer-risk concepts even after matching churn prevalence: the 90-day label is a direct inactivity rule, while BG/NBD ranks customers by model-based alive probability.
